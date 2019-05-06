@@ -21,9 +21,8 @@ export default class Talk extends Component {
 
   render() {
     return(
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <img style={{width: '100%', marginBottom: '50px'}} src="https://www.thehappycatsite.com/wp-content/uploads/2017/11/kitten-tabby.jpg" alt="kitten to make one smile" />
-        <button style={{padding: '1rem', backgroundColor: 'steelblue', color: '#fff', fontSize: '14px'}} onClick={this.handelClick}>tell me something nice</button>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundImage: 'url("https://www.thehappycatsite.com/wp-content/uploads/2017/11/kitten-tabby.jpg")', minHeight: '90vh', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <button style={{padding: '1rem', backgroundColor: 'black', color: '#fff', fontSize: '18px', top: 'calc(100vh - 200px)', border: '0', position: 'fixed', borderRadius: '50px'}} onClick={this.handelClick}>tell me something nice</button>
       </div>
     )
   }
