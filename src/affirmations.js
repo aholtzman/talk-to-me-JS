@@ -51,7 +51,7 @@ const text = [
 "Worry about loving yourself, instead of loving the idea of other people loving you",
 "Kill them with success and bury them with a smile",
 "You have to be odd to be number one",
-"You mistakes don’t define you",
+"Your mistakes don’t define you",
 "No beauty shines brighter than that of a good heart",
 "Life would be tragic if it weren’t funny",
 "Weak people revenge. Strong people forgive. Intelligent people ignore.",
